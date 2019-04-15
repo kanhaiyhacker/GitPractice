@@ -2,6 +2,7 @@ package com.e.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -10,6 +11,7 @@ import org.w3c.dom.Text;
 public class MainActivity extends
         AppCompatActivity {
     TextView textView;
+    ImageView image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
