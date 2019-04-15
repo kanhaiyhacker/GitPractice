@@ -24,4 +24,8 @@ public class MainActivity extends
 
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
 }
